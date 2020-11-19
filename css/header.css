@@ -1,0 +1,115 @@
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 44px;
+    cursor: default;
+    z-index: 1000;
+}
+
+.nav-bar {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 44px;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    width: 60px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-bar ul li a {
+    opacity: 85%;
+    color: rgb(255,255,255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.covid-banner {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-top: 44px;
+    background-color: rgb(18,116,224);
+}
+
+.nav-icon {
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    opacity: 85%;
+    height: 44px;
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.2s
+}
+
+.nav-icon:hover{
+    opacity: 100%;
+}
+
+.apple-home-icon {
+    background-image: url("/images/apple_logo_large.svg");
+}
+
+.apple-search-icon {
+    background-image: url("/images/search_image_small.svg");
+    width: 50px;
+    background-size: 17px;
+}
+
+.apple-basket-icon {
+    background-image: url("/images/bag_image_large.svg");
+    background-size: 15px;
+}
+
+
+
+.covid-banner p {
+    font-size: 12px;
+    color: rgb(255,255,255);
+    line-height: 44px;
+    margin: 0;
+}
+
+.covid-banner p a {
+    color: rgb(253,253,253);
+}
+
+.christmas-banner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    margin: 0;
+}
+
+.christmas-banner p {
+    font-size: 12px;
+    color: rgb(0,0,0);
+    line-height: 44px;
+    margin: 0;
+}

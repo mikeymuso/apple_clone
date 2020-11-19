@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(251,251,253);
+    min-width: 860px;
+}
+
+a {
+    color: rgb(16, 105, 201);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.fa {
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+/****************************/
+/*       MAIN BANNER        */
+/****************************/
+
+.main-banner {
+    background-image: url("/images/macbook_air_large.jpg");
+    width: 100%;
+    height: 624px;
+    min-height: 640px;
+    background-position: center;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    margin: 0;
+    text-align: center;
+}
+
+.product-model {
+    color: rgb(255,255,255);
+    font-size: 1em;
+    padding-top: 60px;
+    margin-bottom: -35px;
+}
+
+.product-header {
+    font-size: 3.2em;
+    font-weight: 800;
+    color: rgb(255,255,255);
+    padding-top: 40px;
+    margin: -8px;
+}
+
+.product-tagline {
+    color: rgb(255,255,255);
+    font-size: 1.5em;
+    padding-top: 3px;
+}
+
+.product-links {
+    padding-top: 10px;
+}
+
+.product-links p {
+    display: inline;
+    font-size: 1.2em;
+}
+
+.buy-link {
+    margin-left: 30px;
+}
+
+.secondary-banner {
+    background-image: url("/images/macbook_pro13_large.jpg");
+    height: 624px;
+    width: 100%;
+    min-height: 640px;
+    background-position: center;
+    background-size: 3010px 624px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/****************************/
+/*       XMAS SECTION       */
+/****************************/
+
+.shopping-section {
+    height: 650px;
+}
+
+.shopping-logo {
+    background-image: url("/images/christmas_sprite_large.png");
+    background-size: 385px 546px;
+    background-repeat: no-repeat;
+    height: 91px;
+    width: 77px;
+    margin: 0 auto;
+    margin-top: 50px;
+    animation: xmasAnim 0.5s steps(4) 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes xmasAnim {
+    0% {
+        background-position-x: 0%;
+        background-position-y: 0%;
+    }
+    0.01% {
+        background-position-x: 0%;
+        background-position-y: 0%;
+    }
+    16.67% {
+        background-position-x: 100%;
+        background-position-y: 0%;
+    }
+    16.68% {
+        background-position-x: 0%;
+        background-position-y: 20%;
+    }
+    33.33% {
+        background-position-x: 100%;
+        background-position-y: 20%;
+    }
+    33.34% {
+        background-position-x: 0%;
+        background-position-y: 40%;
+    }
+    50% {
+        background-position-x: 100%;
+        background-position-y: 40%;
+    }
+    50.01% {
+        background-position-x: 0%;
+        background-position-y: 60%;
+    }
+    66.67% {
+        background-position-x: 100%;
+        background-position-y: 60%;
+    }
+    66.68% {
+        background-position-x: 0%;
+        background-position-y: 80%;
+    }
+    83.33% {
+        background-position-x: 100%;
+        background-position-y: 80%;
+    }
+    83.34%  {
+        background-position-x: 0%;
+        background-position-y: 100%;
+    }
+    100% {
+        background-position-x: 100%;
+        background-position-y: 100%;
+    }
+}
+
+.shopping-header {
+    text-align: center;
+    font-size: 3.3em;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.shopping-link {
+    text-align: center;
+}
+
+
+.shopping-img-container {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-img-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.shopping-img-links div {
+    height: 380px;
+}
+
+.shopping-img-links img {
+    width: 100%;
+    max-width: 400px;
+
+}
+
+
+
+/****************************/
+/*     PROMOTIONS GRID      */
+/****************************/
+
+.promotions {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.products-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-width: 780px;
+    max-width: 1300px;
+    margin-top: 10px;
+}
+
+.product-cell {
+    position: relative;
+    width: 48%;
+    height: 500px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.mac-mini {
+    background-image: url("/images/mac_mini_large.jpg");
+}
+
+.iphone12-pro-mini {
+    background-image: url("/images/iphone12_large.jpg");
+}
+
+.iphone12 {
+    background-image: url("/images/iphone12_pro_large.jpg");
+}
+
+.homepod-mini {
+    background-image: url("/images/tile_homepod_large.jpg");
+}
+
+.apple-tv {
+    background-image: url("/images/tile_tv_large.jpg");
+    background-position: top;
+}
+
+.fitness {
+    background-image: url("/images/tile_fitness_large.jpg");
+}
+
+
+.product-cell h3 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.product-cell p {
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+}
+
+.product-cell .grid-links-top,
+.product-cell .grid-links-bottom,
+.product-cell .apple-tv-links {
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.tile-header-bottom-white {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+}
+
+.tile-header-bottom-dark {
+    position: absolute;
+    bottom: 70px;
+    color: black;
+}
+
+.tile-header-top-dark {
+    position: absolute;
+    top: 50px;
+    color: black;
+}
+
+.tile-header-top-white {
+    position: absolute;
+    top: 50px;
+    color: white;
+}
+
+.tile-tagline-bottom-white {
+    position: absolute;
+    bottom: 75px;
+    color: white;
+}
+
+.tile-tagline-top-dark {
+    position: absolute;
+    top: 95px;
+    color: black;
+}
+
+.tile-tagline-top-white {
+    position: absolute;
+    top: 95px;
+    color: white;
+}
+
+.grid-links-bottom {
+    position: absolute;
+    bottom: 45px;
+}
+
+.grid-links-top {
+    position: absolute;
+    top: 130px;
+}
+
+.grid-links-top a:nth-child(1),
+.grid-links-bottom a:nth-child(1),
+.apple-tv-links a:nth-child(1),
+.fitness-custom-links a:nth-child(1) {
+    margin-right: 30px;
+}
+
+.homepod-custom {
+    bottom: 40px;
+}
+
+.apple-tv-logo {
+    background-image: url("/images/tv_logo_large.png");
+    height: 26px;
+    width: 100%;
+    background-position: center;
+    background-size: 13%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 135px;
+}
+
+.apple-tv-tagline {
+    position: absolute;
+    bottom: 75px;
+    height: 50px;
+    color: white;
+}
+
+.apple-tv-links {
+    position: absolute;
+    bottom: 45px;
+}
+
+.fitness-subheader {
+    font-size: 0.7em !important;
+    color: rgb(192,81,30);
+    position: absolute;
+    top: 25px;
+}
+
+.fitness-logo {
+    background-image: url("/images/fitness_logo_large.png");
+    height: 40px;
+    width: 100%;
+    background-position: center;
+    background-size: 27%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+}
+
+.fitness-custom-tile {
+    top: 85px;
+}
+
+.fitness-custom-links {
+    position: absolute;
+    top: 145px;
+    width: 100%;
+
+}
